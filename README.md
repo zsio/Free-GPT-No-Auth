@@ -33,6 +33,6 @@ This is a [Next.js](https://nextjs.org/) project
 众人拾柴火焰高，此项目离不开大家的支持，如果你有好的想法或者发现了新的网站，欢迎提交PR或者Issue。
 
 
-## 🏃‍♂️ 运行
+## 🏃 运行
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%zsio%2FFree-GPT-No-Auth&project-name=free-gpt-no-auth&repository-name=Free-GPT-No-Auth)
