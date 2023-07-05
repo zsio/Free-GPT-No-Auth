@@ -37,9 +37,9 @@ export default function Side(props: Props) {
 
 
         <footer className="h-[80px] flex items-center justify-center">
-          <a className="p-1" target="_blank" href="https://github.com">
+          <a className="p-1" target="_blank" href="https://github.com/zsio/Free-GPT-No-Auth">
             <Image className="m-auto" src="/github.svg" width={26} height={26} alt="github"/>
-            <span className="text-xs text-center text-gray-700">Star me</span>
+            <span className="text-xs text-center text-gray-700">star me</span>
           </a>
         </footer>
       </div>

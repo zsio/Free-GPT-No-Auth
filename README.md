@@ -1,4 +1,4 @@
-<a href="https://chat.vercel.ai/">
+<a href="https://api-box.com">
   <h1 align="center">Free GPT 🆓 No Auth ⛔</h1>
 </a>
 
