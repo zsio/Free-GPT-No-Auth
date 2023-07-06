@@ -2,7 +2,7 @@
 
 import {useState} from "react";
 import Side from '@/components/side'
-import {ModelType, Site} from "@/types/type";
+import { Site } from "@/types/type";
 
 
 const sites: Site[] = [
@@ -14,6 +14,7 @@ const sites: Site[] = [
   {
     title: 'lushu chat',
     modelType: ['gpt4'],
+    newWindow: true,
     url: 'https://gpt.free.lsdev.me/zh',
   },
   {
@@ -48,13 +49,23 @@ export default function Home() {
 
   const [site, setSite] = useState<Site>()
 
+  /**
+   * change site
+   * @param site Site
+   * @returns void
+   */
   const handleChangeSite = (site: Site)=> {
-    if (site.newWindow){
-      window.open(site.url)
+    if (!site) return
+    const {url, newWindow} = site
+    if (newWindow){
+      // open in a new window
+      window.open(url)
       return
     }
+    // open in the same window
     setSite(site)
   }
+
 
   return (
     <main className="flex flex-col md:flex-row">
@@ -63,10 +74,14 @@ export default function Home() {
         {
           site?.url ? (
             <div>
-              <iframe key={site?.url} className="w-full h-screen" src={site?.url} />
+              <iframe
+                key={site?.url}
+                className="w-full h-screen"
+                src={site?.url}
+              />
             </div>
           ): (
-            <div className="h-full flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center h-full">
               <h1 className="p-4 pl-8 pr-8 text-2xl font-bold border rounded shadow-xl">
                 Free GPT 🆓 No Auth ⛔
               </h1>
