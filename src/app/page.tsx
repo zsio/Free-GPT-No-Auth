@@ -21,6 +21,26 @@ const sites: Site[] = [
     modelType: ['gpt3'],
     url: 'https://chat10.aichatos.xyz',
   },
+  {
+    title: '老北鼻AI',
+    modelType: ['gpt3'],
+    url: 'https://url1.ai-node.com',
+  },
+  {
+    title: 'wuguokai',
+    modelType: ['gpt3'],
+    url: 'https://chat.wuguokai.cn/',
+  },
+  {
+    title: '77cob',
+    modelType: ['gpt3'],
+    url: 'https://www.77cob.top/',
+  },
+  {
+    title: 'ninomae',
+    modelType: ['gpt4'],
+    url: 'https://magic.ninomae.top/zh',
+  },
 ]
 
 export default function Home() {
