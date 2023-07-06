@@ -34,7 +34,7 @@ export default function Side(props: Props) {
         </div>
       </div>
 
-      <div className="block md:hidden">
+      <div className={`${props.site?.url? 'hidden':'block'} md:hidden`}>
         <div className="w-full p-4 mt-5 mb-5">
           <h1 className="p-2">点击下方的网站列表，刷新页面即可返回。</h1>
           <List {...props} />

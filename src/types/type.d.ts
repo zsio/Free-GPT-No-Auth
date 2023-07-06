@@ -10,5 +10,5 @@ export interface Site {
   url: string
   modelType: (keyof typeof ModelType)[]
   icon?: string
-  openTab?: boolean
+  newWindow?: boolean
 }

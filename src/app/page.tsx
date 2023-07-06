@@ -39,6 +39,7 @@ const sites: Site[] = [
   {
     title: 'ninomae',
     modelType: ['gpt4'],
+    newWindow: true,
     url: 'https://magic.ninomae.top/zh',
   },
 ]
@@ -48,7 +49,7 @@ export default function Home() {
   const [site, setSite] = useState<Site>()
 
   const handleChangeSite = (site: Site)=> {
-    if (site.openTab){
+    if (site.newWindow){
       window.open(site.url)
       return
     }
@@ -66,10 +67,10 @@ export default function Home() {
             </div>
           ): (
             <div className="h-full flex flex-col items-center justify-center">
-              <h1 className="p-4 text-xl">
+              <h1 className="p-4 pl-8 pr-8 text-2xl font-bold border rounded shadow-xl">
                 Free GPT 🆓 No Auth ⛔
               </h1>
-              <p className="p-6 text-xl md:text-2xl">
+              <p className="p-6 text-lg md:text-xl">
                 如果遇到网站打不开的情况，请使用 <span className="font-bold">科学上网</span>。
               </p>
               <div className="p-6 text-center">
