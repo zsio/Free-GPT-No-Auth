@@ -85,18 +85,15 @@ export default function Home() {
               <h1 className="p-4 pl-8 pr-8 text-2xl font-bold border rounded shadow-xl">
                 Free GPT 🆓 No Auth ⛔
               </h1>
-              <p className="p-6 text-lg md:text-xl">
-                如果遇到网站打不开的情况，请使用 <span className="font-bold">科学上网</span>。
-              </p>
               <div className="p-6 text-center">
                 <p>
-                  目的也不是在手机等移动端使用，只是利用几分钟时间临时搭建的一个网站，主要是自己和家人朋友使用而做的一个集合站，不保证可用性。
+                  使用公共免费api，不保证可用性。
                 </p>
-                <p>请尽量在 PC 或 iPad 中使用</p>
+                <p>首选使用FreeGPT，回复慢则需要耐心等待</p>
               </div>
               <div className="p-6 text-center">
                 <p>
-                  如果有任何问题，可以在 <a href="https://github.com/zsio/Free-GPT-No-Auth">GitHub</a> 上提issue、直接发邮件给我 <a href="mailto:200676@gmail.com" className="text-blue-400">200676@gmail.com</a>
+                  源代码出处 <a href="https://github.com/zsio/Free-GPT-No-Auth">GitHub</a> 邮件 <a href="mailto:200676@gmail.com" className="text-blue-400">200676@gmail.com</a>
                 </p>
                 <p>或者 <a className="text-blue-400" href="https://discord.gg/8AZ9Xa37">加入discord</a> 联系我</p>
               </div>
