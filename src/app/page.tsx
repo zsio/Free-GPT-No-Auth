@@ -12,36 +12,19 @@ const sites: Site[] = [
     url: 'https://chat.api-box.com',
   },
   {
-    title: 'lushu chat',
-    modelType: ['gpt4'],
-    newWindow: true,
-    url: 'https://gpt.free.lsdev.me/zh',
-  },
-  {
-    title: 'AiChatOS',
+    title: 'acytoo',
     modelType: ['gpt3'],
-    url: 'https://chat10.aichatos.xyz',
+    url: 'https://chat.acytoo.com/',
   },
   {
-    title: '老北鼻AI',
+    title: 'gpt2',
     modelType: ['gpt3'],
-    url: 'https://url1.ai-node.com',
+    url: 'https://chat.getgpt.world',
   },
   {
-    title: 'wuguokai',
+    title: 'ai.ls',
     modelType: ['gpt3'],
-    url: 'https://chat.wuguokai.cn/',
-  },
-  {
-    title: '77cob',
-    modelType: ['gpt3'],
-    url: 'https://www.77cob.top/',
-  },
-  {
-    title: 'ninomae',
-    modelType: ['gpt4'],
-    newWindow: true,
-    url: 'https://magic.ninomae.top/zh',
+    url: 'https://ai.ls/',
   },
 ]
 

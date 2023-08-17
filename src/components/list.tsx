@@ -34,7 +34,11 @@ export default function List(props: Props) {
 
   return (
     <ul className="p-1 menu rounded-box bg-base-200">
-      <li className="menu-title">GPT4</li>
+      {
+        gpt4Sites.length > 0 && (
+          <li className="menu-title">GPT4</li>
+        )
+      }
       {
         gpt4Sites.map((site) => liTag(site))
       }
