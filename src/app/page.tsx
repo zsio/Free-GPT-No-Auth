@@ -26,6 +26,11 @@ const sites: Site[] = [
     modelType: ['gpt3'],
     url: 'https://ai.ls/',
   },
+  {
+    title: 'ikunn',
+    modelType: ['gpt3'],
+    url: 'https://ikunn.icu/',
+  }
 ]
 
 export default function Home() {
