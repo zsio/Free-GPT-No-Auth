@@ -80,17 +80,7 @@ export default function Home() {
                 <p>首选使用FreeGPT，回复慢则需要耐心等待</p>
               </div>
               <div className="p-6 text-center">
-                <p>
-                  源代码出处 <a href="https://github.com/zsio/Free-GPT-No-Auth">GitHub</a> 邮件 <a href="mailto:200676@gmail.com" className="text-blue-400">200676@gmail.com</a>
-                </p>
-                <p>或者 <a className="text-blue-400" href="https://discord.gg/8AZ9Xa37">加入discord</a> 联系我</p>
-              </div>
-              <a href="https://discord.gg/8AZ9Xa37">
-                <img src="https://discordapp.com/api/guilds/1125981168584626247/widget.png?style=banner2&count=true" alt=""/>
-              </a>
-            </div>
-          )
-        }
+                
       </main>
     </main>
   )
