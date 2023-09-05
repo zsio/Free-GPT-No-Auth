@@ -3,6 +3,7 @@
 import {useState} from "react";
 import Side from '@/components/side'
 import { Site } from "@/types/type";
+import Link from "next/link";
 
 
 const sites: Site[] = [
@@ -70,24 +71,24 @@ export default function Home() {
             </div>
           ): (
             <div className="flex flex-col items-center justify-center h-full">
-              <h1 className="p-4 pl-8 pr-8 text-2xl font-bold border rounded shadow-xl">
-                Free GPT 🆓 No Auth ⛔
-              </h1>
+              <Link className="" href="https://github.com/zsio/Free-GPT-No-Auth">
+                <h1 className="p-4 pl-8 pr-8 text-2xl font-bold border rounded shadow-xl">
+                  Free GPT 🆓 No Auth ⛔
+                </h1>
+              </Link>
+
               <div className="p-6 text-center">
                 <p>
                   使用公共免费api，不保证可用性。
                 </p>
-                <p>首选使用FreeGPT，回复慢则需要耐心等待</p>
+                <p className="p-2">首选使用FreeGPT，回复慢则需要耐心等待</p>
               </div>
               <div className="p-6 text-center">
                 <p>
-                  源代码出处 <a href="https://github.com/zsio/Free-GPT-No-Auth">GitHub</a> 邮件 <a href="mailto:200676@gmail.com" className="text-blue-400">200676@gmail.com</a>
+                  源代码出处 <Link className="text-blue-400" href="https://github.com/zsio/Free-GPT-No-Auth">GitHub：zsio/Free-GPT-No-Auth</Link>
                 </p>
-                <p>或者 <a className="text-blue-400" href="https://discord.gg/8AZ9Xa37">加入discord</a> 联系我</p>
+
               </div>
-              <a href="https://discord.gg/8AZ9Xa37">
-                <img src="https://discordapp.com/api/guilds/1125981168584626247/widget.png?style=banner2&count=true" alt=""/>
-              </a>
             </div>
           )
         }
